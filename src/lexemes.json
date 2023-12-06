@@ -1,0 +1,90 @@
+[
+    {
+        "nombre": "programa",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "int",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "char",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "float",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "leer",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "imprimir",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "terminar",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "mientras",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "sino",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "si",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "+",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "-",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "*",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "/",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "=",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "(",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": ")",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "{",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": ";",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": ":",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": "}",
+        "tipo": "reservada"
+    },
+    {
+        "nombre": ".",
+        "tipo": "reservada"
+    }
+]

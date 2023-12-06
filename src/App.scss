@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('https://fonts.gstatic.com/s/ubuntu/v15/4iCv6KVjbNBYlgoC1CzjvWyNL4U.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: url(img3.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif; // Puedes cambiar esto según tus preferencias
+    color: #ffff;
+  }
+  
+  
+  #root {
+    height: 100%;
+  }
+
+  .app {
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #4444aa;
+        padding: 0px 0px 0px 40px;
+        width: 242px;
+        font-size: 24px;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        padding: 50px;
+
+        .in {
+            color: #FC9646;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .form-control {
+            height: inherit;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow:  6px 11px 14px 0px black;
+            resize: none;
+        }
+    }
+
+    .output {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        padding: 50px;
+
+        .out {
+            color: #FC9646;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .container-table {
+            border: 1px solid;
+            height: 500px;
+            border-radius: 8px;
+            background: #ffff;
+            overflow: hidden;
+            box-shadow:  6px 11px 10px 0px black;
+
+            .error-message {
+                border: 1px solid red;
+                color: black;
+                border-radius: 6px;
+                padding: 19px;
+                margin: 25px;
+            }
+        }
+    }
+  }
+
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.parse-file-button {
+  margin-top: 0px; 
+}
+
+.button {
+  color: #fff;
+  background-color: #fc9646;
+  box-shadow: 0 3px 4px 0 rgb(16 16 15 / 30%);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
